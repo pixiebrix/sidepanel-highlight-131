@@ -18,12 +18,5 @@
   },
   "side_panel": {
     "default_path": "sidepanel.html"
-  },
-  "content_scripts": [
-    {
-      "matches": ["*://*/*"],
-      "js": ["contentScript.js"],
-      "all_frames": true
-    }
-  ]
+  }
 }
