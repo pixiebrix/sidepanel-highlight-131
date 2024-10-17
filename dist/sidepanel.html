@@ -24,7 +24,29 @@
   </head>
   <body>
     <div id="container" class="full-height vh-100">
-      <h1>Minimum Extension Template</h1>
+      <template shadowrootmode="open">
+        <style>
+          /* body {
+            all: initial;
+          } */
+          /* :host {
+            display: block;
+            color-scheme: light;
+          } */
+          :host::selection {
+            background: initial;
+          }
+        </style>
+        <h1>Chrome 131 sidepanel highlight issue</h1>
+        <p>I am a paragraph</p>
+        <form>
+          <label for="test-input">Test Input Label</label>
+          <input id="test-input" />
+          <br />
+          <label for="test-textarea">Test Textarea Label</label>
+          <textarea id="test-textarea"></textarea>
+        </form>
+      </template>
     </div>
   </body>
 </html>
